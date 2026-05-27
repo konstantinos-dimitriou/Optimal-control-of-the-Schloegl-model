@@ -49,7 +49,6 @@ To run these scripts, you will need the legacy FEniCS stack:
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details. If you find this code or the associated numerical experiments useful for your work, please cite the Master's thesis:
 
-> **Konstantinos Dimitriou.** *On different control strategies for optimal control problems governed by prototypical reaction-diffusion equations.* Master's thesis, 2023.
-> 
-> > [**Read the full thesis on ResearchGate**](https://www.researchgate.net/publication/381887437_On_different_control_strategies_for_optimal_control_problems_governed_by_prototypical_reaction_diffusion_equations)
-
+> Konstantinos Dimitriou (2023). *On different control strategies for optimal control problems governed by prototypical reaction-diffusion equations.* University of Bonn.
+>
+> [**Read the full thesis on ResearchGate**](https://www.researchgate.net/publication/381887437_On_different_control_strategies_for_optimal_control_problems_governed_by_prototypical_reaction_diffusion_equations)
