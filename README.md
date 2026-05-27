@@ -10,6 +10,14 @@ This repository contains the Python code used for the numerical experiments in m
 
 The primary objective of these scripts is to manipulate traveling wave fronts—specifically stopping, generating, and turning them. The optimization routines allow for the comparison of different control strategies, including standard **L2** control costs and sparse **L2 + L1** penalty functionals.
 
+## Theoretical Background
+
+The optimal control strategies and numerical approaches implemented in this repository are investigated in my Master's thesis. For a comprehensive list of cited papers, as well as in-depth theoretical and numerical analysis (including well-posedness and optimality conditions), please refer to the thesis:
+
+> Konstantinos Dimitriou (2023). *On different control strategies for optimal control problems governed by prototypical reaction-diffusion equations.* University of Bonn.
+>
+> [**Read the full thesis on ResearchGate**](https://www.researchgate.net/publication/381887437_On_different_control_strategies_for_optimal_control_problems_governed_by_prototypical_reaction_diffusion_equations)
+
 ## Repository Structure
 
 The codebase consists of 7 primary scripts. While there is some repetition between the optimal control files, they are separated by dimension and specific control objectives for clarity.
@@ -19,7 +27,7 @@ The codebase consists of 7 primary scripts. While there is some repetition betwe
 * `Schloegl_2D.py`: Solves the baseline 2D Schlögl partial differential equation.
 
 ### Optimal Control Scripts 1D
-* `Optimal_control_Schloegl_1D.py`: Solves the optimal control problem in the 1-dimensional setting, allowing for the penalization of the control function to induce sparsity.
+* `Optimal_control_Schloegl_1D.py`: Solves the optimal control problem in the 1-dimensional setting, allowing both L2 (standard) and L1 (sparse) penalty terms in the objective functional.
 * `purely_time_dependent_controls.py`: Solves the optimal control problem utilizing **purely time-dependent controls**. *(Note: The theoretical foundation for this approach is studied in Section 2.7 of the thesis, though these specific numerical experiments were added subsequently).*
 
 ### Optimal Control Scripts 2D (Wave Front Manipulation)
