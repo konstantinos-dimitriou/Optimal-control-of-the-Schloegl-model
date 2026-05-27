@@ -42,5 +42,5 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 > **Konstantinos Dimitriou.** *On different control strategies for optimal control problems governed by prototypical reaction-diffusion equations.* Master's thesis, 2023.
 > 
-> [**Read the full thesis on ResearchGate**][(https://YOUR_RESEARCHGATE_LINK_HERE](https://www.researchgate.net/publication/381887437_On_different_control_strategies_for_optimal_control_problems_governed_by_prototypical_reaction_diffusion_equations))
+> [**Read the full thesis on ResearchGate**][([https://YOUR_RESEARCHGATE_LINK_HERE](https://www.researchgate.net/publication/381887437_On_different_control_strategies_for_optimal_control_problems_governed_by_prototypical_reaction_diffusion_equations)]
 
