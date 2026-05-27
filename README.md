@@ -20,13 +20,14 @@ The codebase consists of 7 primary scripts. While there is some repetition betwe
 
 ### Optimal Control Scripts 1D
 * `Optimal_control_Schloegl_1D.py`: Solves the optimal control problem in the 1-dimensional setting, allowing for the penalization of the control function to induce sparsity.
+* `purely_time_dependent_controls.py`: Solves the optimal control problem utilizing **purely time-dependent controls**. *(Note: The theoretical foundation for this approach is studied in Section 2.7 of the thesis, though these specific numerical experiments were added subsequently).*
 
 ### Optimal Control Scripts 2D (Wave Front Manipulation)
 These three scripts solve the optimal control problem in a 2-dimensional spatial domain, each targeting a specific wave front behavior:
 * `Extinguish_wave_fonts_2D.py`: Applies control to stop/extinguish an expanding wave front.
 * `Generate_wave_fonts_2D.py`: Applies control to an initial zero-state to generate a specific wave front pattern by the terminal time.
 * `Turning_wave_fonts_2D.py`: Applies control to continuously turn an existing wave front in a counterclockwise direction while restraining its expansion.
-* `purely_time_dependent_controls.py`: Solves the optimal control problem utilizing **purely time-dependent controls**. *(Note: The theoretical foundation for this approach is studied in Section 2.7 of the thesis, though these specific numerical experiments were added subsequently).*
+
 
 ## Dependencies
 
